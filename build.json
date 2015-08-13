@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "MRM ZMR250 v2",
+    "esc": "MRM 12 amp blheli 14",
+    "motor": "Sunnysky X2204S 2300KV",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/6x4.5-FG-MR",
+      "Surveilzone/DalProp-6x4"
+    ],
+    "arm": "Stock",
+    "battery": [
+      "Lumenier/1800mAh-4s-35c-Lipo"
+    ],
+    "osd": "",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "RunCam/PZ0420H",
+    "hqcam": "SpyTec/Mobius-Action-Cam-Wide-Angle",
+    "videotx": "FatShark/5.8GHz-250mW",
+    "blackbox": "ReadyToFlyQuads/SD-Data-Logger",
+    "voltagereg": ""
+  },
+  "version": 1
 }
